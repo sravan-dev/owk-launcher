@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Window background is the wallpaper, so the first frame is never a splash or black screen. -->
+    <style name="Owk" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/wallpaper</item>
+        <item name="android:colorAccent">#FFFFFFFF</item>
+    </style>
+</resources>
